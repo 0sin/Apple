@@ -1,0 +1,268 @@
+/* 초기화 스타일 */
+*{border: 0px dashed red; margin: 0;}
+body {color: rgb(29, 29, 31);}
+ul {list-style: none; padding: 0;}
+li {margin: 0;}
+
+/* 요소 스타일 */
+
+@font-face {
+   font-family: 'SF Pro KR';
+   font-style: normal;
+   font-weight: 200;
+   src: url('../font/SFProKRDisplay_light.woff2');}
+
+@font-face {
+   font-family: 'SF Pro KR';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../font/SFProKRDisplay_regular.woff2');}
+
+@font-face {
+   font-family: 'SF Pro KR';
+   font-style: normal;
+   font-weight: 600;
+   src: url('../font/SFProKRDisplay_semibold.woff2');}
+
+@font-face {
+   font-family: 'SF Pro KR';
+   font-style: normal;
+   font-weight: 800;
+   src: url('../font/SFProKRDisplay_bold.woff2');}
+
+@font-face {
+   font-family: 'SF Pro text';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../font/sf-pro-text_regular.woff2')}
+
+@font-face {
+   font-family: 'SF Pro text';
+   font-style: normal;
+   font-weight: 600;
+   src: url('../font/sf-pro-text_semibold.woff2')}
+
+@font-face {
+   font-family: 'SF Pro Display';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../font/sf-pro-display_regular.woff2')}
+
+@font-face {
+   font-family: 'SF Pro Display';
+   font-style: normal;
+   font-weight: 600;
+   src: url('../font/sf-pro-display_semibold.woff2');}
+
+
+
+   /* @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap'); */
+
+   /* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap'); */
+   
+   /* @font-face {
+      font-family: 'Noto Sans KR';
+      src: url('../font/NotoSansKR-Medium.otf');} */
+
+
+/* 타이포스타일*/
+h1 { }
+
+h2 {
+   font-family: 'SF Pro KR', 'SF Pro Display',serif;
+   font-style: normal;
+   font-size: 56px;
+   font-weight: 600;
+   line-height: 66px;
+   -webkit-font-smoothing: antialiased;}
+
+h3 {
+   font-family: 'SF Pro KR', 'SF Pro Display', serif;
+   font-style: normal;
+   font-size: 28px;
+   font-weight: 400;
+   line-height: 31px;
+   letter-spacing: 0.11px;}
+
+h4 { }
+
+h5 { }
+
+p {
+   font-family: 'SF Pro KR', 'SF Pro text', serif;
+   font-style: normal;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 16.8px;}
+
+
+
+.h4_large_40 {
+   font-family: 'SF Pro KR', 'SF Pro Display', serif;
+   font-style: normal;
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 44px;}
+
+.h5_large_21 {
+   font-family: 'SF Pro KR', 'SF Pro Display', serif;
+   font-style: normal;
+   font-size: 21px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0.21px;
+   margin: 4px 0 0;}
+
+.p_large_17 {
+   font-family: 'SF Pro KR', 'SF Pro text', serif;
+   font-style: normal;
+   font-size: 17px;
+   font-weight: 400;
+   line-height: 27px;}
+
+
+/* 링크 스타일 */
+a:link {text-decoration: none; color: #2997FF;}
+a:hover {text-decoration: underline; color: #2997FF;}
+a:active {text-decoration: none; color: #2997FF;}
+a:visited {text-decoration: none; color: #2997FF;}
+
+sup {font-size: 8px;}   
+
+/* 정렬 스타일 */
+.text_align_center {text-align: center;}
+
+.margin_top_6 {margin: 6px 0 0;}
+.margin_top_7 {margin: 7px 0 0;}
+
+/* 배경 컬러 스타일 */
+.bg_color_white {background-color: white;}
+.bg_color_dark {background-color: rgb(19,19,19);}
+.bg_color_rightgray {background-color: rgb(251, 251, 253);}
+
+/* 텍스트 컬러 스타일 */
+.color_white {color: rgb(245, 245, 247);}
+.color_blue {color: rgb(0, 102, 204);}
+.color_blue_blackback {color: rgb(41, 151, 255)}
+.color_gray {color: rgb(134, 134, 139);}
+
+
+/* header 스타일 */
+#gnb {background-color: rgba(0, 0, 0, 0.8);
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;}
+
+
+/* footer 스타일 */
+footer {background-color: rgb(245, 245, 247);}
+
+
+/* Navigation 클래스 */
+.nav_menu {
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   width: 980px;
+   height: 44px;
+   margin: 0 auto;
+   padding: 0;}
+
+.nav_menu_logo {
+   line-height: 44px;
+   opacity: 0.8;}
+.nav_menu_logo:hover {opacity: 1;}
+
+.nav_menu a:link {text-decoration: none;}
+/* .nav_menu li {text-decoration: none;} */
+
+.nav_menu_item {
+   margin: 0 0 0 0px;
+   padding: 0 10px;
+   line-height: 44px;
+   font-family: 'SF Pro KR', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   color: rgb(245, 245, 247);
+   opacity: 0.8;}
+
+.nav_menu_item:hover {opacity: 1;}
+
+
+
+
+
+/* footer_wrap 클래스 */
+.footer_wrap {
+   width: 1000px;
+   margin: 0 auto;
+   padding: 0 10px;}  
+
+.footer_note {
+   padding: 17px 0 11px;
+   color: rgb(134, 134, 139);   
+   border-bottom: 1px solid rgb(210, 210, 215);}
+
+.footer_menu {
+   display: flex;
+   padding: 20px 0 0;}
+
+.footer_menu_column { width: 196px; }
+
+.footer_menu_group {
+   list-style: none;
+   padding: 0;
+   font-family: 'SF Pro KR', sans-serif;
+   font-style: normal;
+   font-size:12px;
+   font-weight:400;
+   line-height: 16px;
+   color: rgb(134, 134, 139);}
+
+.footer_menu_group a {color: rgb(134, 134, 139)}
+.footer_menu_group a:hover {color: rgb(81, 81, 84)}
+
+.footer_menu_group li {margin: 0 0 6.8px;}
+.footer_menu_group li:first-child{
+   font-weight: 600;
+   color:rgb(29,29,31)}
+
+
+.footer_contact {
+   color: rgb(134, 134, 139);
+   border-bottom: 1px solid rgb(210, 210, 215);
+   padding: 0 0 7px;
+   margin: 0 0 8px;}
+
+.footer_copyright_wrap {
+   display: flex;
+   justify-content: space-between;}
+
+.footer_copyright {
+   color: rgb(134, 134, 139);   
+   margin: 5px 0 ;}
+
+.footer_copyright a {
+   color: rgb(81, 81, 84);
+   padding: 0 12px 0;
+   border-right: 1px solid rgb(134, 134, 139);}
+
+.footer_copyright a:hover {color: rgb(81, 81, 84);}
+
+.footer_address {
+   color: rgb(134, 134, 139);   
+   font-size: 11px;
+   font-weight: 400;
+   line-height: 15px;
+   padding: 0 0 20px;}   
+   
+.font_weight_600 {font-weight: 600;}
+.color_gray_29 {color: rgb(29, 29, 31);}
+
+
+
+
+
+
