@@ -91,6 +91,8 @@ sup {font-size: 8px;}
 
    .promo_link_buy {margin: 0 0 0 28px;}
 
+ 
+
 
 /* iphone_11_pro 클래스 */
 .iphone_11_pro {
@@ -156,5 +158,64 @@ sup {font-size: 8px;}
    background-position: center bottom;
    background-color: rgb(250, 250, 250);
    margin: 0 0 12px 12px;}
+
+
+
+
+   @media screen and (max-width: 767px) {
+      .link_more_wrap {font-size: 19px;}
+
+      .hero_iphonese {
+         padding: 47px 0 0;
+         background-image: url('../img/hero.jpg');
+         width: 100%;
+         height: 500px;
+         background-size: 100%;
+         background-repeat: no-repeat;
+         background-position: center 230px;
+         margin-bottom: 12px;}
+         
+      .iphone_11 {
+         padding: 44px 0 0;
+         background-image: url('../img/hero_iphone11.jpg');
+         width: 100%;
+         height: 450px;
+         background-size: 200%;
+         background-repeat: no-repeat;
+         background-position: center bottom;
+         margin: 0 0 12px;}
+
+
+      .ipad_pro {
+         padding: 44px 0 0;
+         background-image: url('../img/hero_ipad.jpg');
+         width: 100%;
+         height: 450px;
+         background-size: 300%;
+         background-repeat: no-repeat;
+         background-position: center bottom;
+         margin-bottom: 0 0 12px;}
+      
+      .promo_wrapper {
+         display: flex;
+         flex-wrap: wrap;
+         padding: 0 12px;}
+
+      .imac, 
+      .iphone_11_pro, 
+      .watch, 
+      .macbook_pro,
+      .airpods,
+      .apple {
+         width: 100%;
+         margin: 12px 0 0;
+      }
+
+      .apple {
+         margin: 12px 0 12px;
+      }
+
+
+   }
 
 
